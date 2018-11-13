@@ -23,6 +23,9 @@ the tree would be as below,
            1-2,{53},{udp},{inbound}                 2-200,{110},{tcp},{outbound}
                     |                                      |
            1-5,{53},{udp},{inbound}                 100-5,{110},{tcp},{outbound}
+           
+           
+Link for tree(because its not displayed properly here): https://drive.google.com/file/d/12j78y69cvKMdcSZomiLivfSrGrnCGZnn/view?usp=sharing
 
 Storing port,direction and protocol info at each node helps me make an early decision as to whether I should further traverse the branch in the tree or not.
 
